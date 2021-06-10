@@ -1,0 +1,22 @@
+.navbar .nav-item:not(:last-child) {margin-right: 35px;}/*https://getbootstrap.com/docs/4.0/components/dropdowns/*/
+p{text-align: justify;}
+
+.dropdown-toggle::after {transition: transform 0.15s linear;}
+
+#alliance{position: relative; left:300px;bottom:50px;}
+  .show.dropdown .dropdown-toggle::after {
+    transform: translateY(3px);
+  }
+.dropdown:hover>.dropdown-menu{display: block;}
+html{overflow-x: hidden;}
+.navlogotext{text-align: center;color:white;width: 10%;position: relative;left:8px;}
+.navlogo{display: block;position: relative;left:20px;top:15px;margin: 0 auto;}
+.navbar {margin:0 !important;padding: 0px !important;}/*https://stackoverflow.com/questions/46151515/react-bootstrap-causing-margins-on-left-and-right-side*/
+.badge {
+  background-color: #f02020;
+  color: #fff;
+  border-radius: 50%;
+  padding: .2rem .4rem;
+  font-size: 1rem;
+  margin-left: .2rem;
+}
